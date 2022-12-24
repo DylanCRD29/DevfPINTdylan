@@ -1,0 +1,91 @@
+* {
+    background-color: rgb(227, 227, 227);
+    font-family: "nunitosans", sans-serif;
+}
+
+header{
+   background-color:rgb(227, 227, 227);
+}
+
+nav{
+   display: flex;
+   margin: 2% 2% 2% 2%;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px;
+}
+
+
+
+/*Home Button*/
+header button{
+    width: 100px;
+    height: 30px;
+}
+
+/* Style Home button */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 221, 221); 
+    border: 1px solid #d3d3d3;
+    border-radius: 50px;
+    color: rgb(0, 0, 0); 
+    font-size: 14px; 
+    cursor: pointer; 
+  }
+  .btn:hover {
+    background-color: rgb(183, 183, 183);
+  }
+
+  /*Search bar*/
+header input{
+    width: 150%;
+    height: 40%;
+}
+
+input{
+    background-color: rgb(221, 221, 221); 
+    border: 2px solid #d3d3d3;
+    border-radius: 18px;
+}
+
+.icon-button {
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    color: #434242;
+    background: rgb(227, 227, 227);
+    border: none;
+    outline: none;
+    border-radius: 50%;
+  }
+
+ /*Pinterest Logo*/
+ img {
+    width: auto;
+    height: 300px;
+    margin-top: 2%;
+    border-radius: 25px;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+
+@media (max-width: 400px){
+    .column{
+        flex: 100%;
+    }
+}
+
+@media (max-width: 1200px){
+    .column{
+        flex: 100%;
+    }
+}
+
